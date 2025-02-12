@@ -31,5 +31,5 @@ This is a **beginner-friendly blog website** built using **Node.js, Express, and
 ## 🚀 **Installation & Setup**
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/siddharth4096/Blogging-Web-App.git
 cd your-repo
