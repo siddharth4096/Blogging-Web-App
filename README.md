@@ -26,10 +26,3 @@ This is a **beginner-friendly blog website** built using **Node.js, Express, and
 - **File Uploads:** Multer  
 - **Hosting:** Render (Backend), GitHub Pages/Vercel (Frontend)  
 
----
-
-## 🚀 **Installation & Setup**
-### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/siddharth4096/Blogging-Web-App.git
-cd your-repo
