@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port=3000;
+const PORT = process.env.PORT || 3000;
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 let methodOverride = require('method-override')
@@ -55,7 +55,7 @@ let posts=[
 
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log(`Example app listening at http://localhost:${port}`);
 });
 
