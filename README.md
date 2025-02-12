@@ -1,1 +1,35 @@
-# Blogging-Web-App
+# 📝 Simple Blog Project
+
+This is a **beginner-friendly blog website** built using **Node.js, Express, and EJS**, with **array-based storage** for blog posts. Users can **create, edit, delete, and read blog posts**. The project is designed as a **learning experience** before moving to databases like MongoDB.
+
+---
+
+## 📸 **Project Demo**
+🔗 **Live Demo:** [Your Render URL Here](https://your-app.onrender.com)  
+
+---
+
+## ⚡ **Features**
+✔ Stores blog posts in an array (No database required)  
+✔ Create, Edit, Delete Blog Posts  
+✔ Image Uploads for Blog Posts  
+✔ Responsive & Modern UI (EJS + CSS)  
+✔ Logout Alert with Delay  
+✔ Fully Deployed on Render & GitHub  
+
+---
+
+## 🏗 **Tech Stack**
+- **Frontend:** EJS, HTML, CSS, JavaScript  
+- **Backend:** Node.js, Express.js  
+- **Storage:** Array of Objects (No Database)  
+- **File Uploads:** Multer  
+- **Hosting:** Render (Backend), GitHub Pages/Vercel (Frontend)  
+
+---
+
+## 🚀 **Installation & Setup**
+### 1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd your-repo
