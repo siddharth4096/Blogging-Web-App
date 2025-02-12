@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Box */
+.container {
+    background: #ffffff;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #555;
+}
+
+/* Post ID Styling */
+.post-id {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Input and Textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background: #0056b3;
+}
+
+
+/* Apply linear gradient background */
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Textarea for Title (Styled like an input field) */
+#title {
+    resize: none;
+    height: 40px; /* Makes it look like a single-line input */
+    overflow: hidden;
+}
+
+/* General Styling for Textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Focus Effect */
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}

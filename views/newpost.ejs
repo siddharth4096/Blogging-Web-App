@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/newpost.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Create a New Post</h2>
+        <form id="postForm" method="POST" action="/myblog/new" enctype="multipart/form-data">
+            <div class="input-group">
+                <label for="title">Post Title</label>
+                <input type="text" id="title" name="title" placeholder="Enter post title" required>
+            </div>
+
+            <div class="input-group">
+                <label for="content">Post Content</label>
+                <textarea id="content" name="content" rows="5" placeholder="Write your post here..." required></textarea>
+                <span id="charCount">0 / 500</span>
+            </div>
+
+            <div class="input-group">
+                <label for="image">Upload Image</label>
+                <input type="file" id="image" name="image" accept="image/*">
+            </div>
+
+            <button type="submit" class="submit-btn">Publish Post</button>
+        </form>
+    </div>
+
+    <script src="/newpostscript.js"></script>
+</body>
+</html>
