@@ -5,7 +5,7 @@ This is a **beginner-friendly blog website** built using **Node.js, Express, and
 ---
 
 ## 📸 **Project Demo**
-🔗 **Live Demo:** [Your Render URL Here](https://your-app.onrender.com)  
+🔗 **Live Demo:** https://blogging-web-app-3cam.onrender.com/myblog
 
 ---
 
