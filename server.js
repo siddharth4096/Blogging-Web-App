@@ -116,10 +116,10 @@ app.post("/myblog/register",(req,res)=>{
 app.patch("/posts/edit/:id",(req,res)=>{
   let {id} = req.params;
   let post=posts.find(p=>p.id===id);
-  // let {newTitle,newContent}=req.body;
-  // post.title=newTitle;
-  // post.content=newContent;
-  // res.redirect("/myblog");
+
+  
+
+  
   let newTitle=req.body.title;
   post.title=newTitle;
   let newContent=req.body.content;
