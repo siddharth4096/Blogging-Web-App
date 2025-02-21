@@ -8,7 +8,7 @@ const multer = require("multer");
 
 
 app.set('view engine', 'ejs');
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));   //accessible in outside the directory 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname,"views")));
 app.use(methodOverride('_method'));
@@ -17,7 +17,7 @@ app.use("/photos", express.static("photos"));
 
 
 
-const storage = multer.diskStorage({
+const storage = multer.diskStorage({       //for storage in photos directories 
   destination: "./photos/",
   filename: (req, file, cb) => {
       cb(null, Date.now() + path.extname(file.originalname)); // Unique filename
